@@ -1,0 +1,1 @@
+{"db_remaining":500000,"end_at":"2026-09-29T07:49:28.779816995Z","id":24,"name":"fault-backlog","pay_timeout_sec":3600,"per_user_limit":1,"shard_count":8,"start_at":"2026-09-28T07:49:27.779816995Z","strategy":"sharded","total_stock":500000}

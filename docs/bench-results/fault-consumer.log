@@ -1,0 +1,8 @@
+===== fault: stop consumer =====
+coupon 21
+stopping consumer at 07:44:17
+mid-fault reconcile 07:44:25
+mid consistent=True oversell=0 active=8000 redis=0 pending=0 lag=0
+starting consumer at 07:44:25
+final reconcile 07:44:35
+consumer fault recovered consistent

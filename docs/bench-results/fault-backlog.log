@@ -1,0 +1,29 @@
+coupon 24 stock 500000
+k6 start 2026-09-28T07:49:28Z
+stopping consumer at 2026-09-28T07:49:31Z
+mid reconcile 2026-09-28T07:49:32Z
+mid exit 2
+mid consistent=False balanced=False oversell=0 active=4352 redis=476836 users=23166 db_pending=4352 mq_pending=90 lag=18735 total=500000
+notes ['共享流还有 pending=90 lag=18735（可能属于其他券）', 'redis 476836 + active 4352 != total 500000', 'redis users 23166 != active orders 4352']
+name
+order-writers
+consumers
+9
+pending
+90
+last-delivered-id
+1790581769517-3
+entries-read
+2396845
+lag
+20240
+k6 done exit 0 at 2026-09-28T07:49:46Z
+held reconcile 2026-09-28T07:49:46Z
+held exit 2
+held consistent=False balanced=False oversell=0 active=4352 redis=253186 users=246814 db_pending=4352 mq_pending=90 lag=242379 total=500000
+notes ['共享流还有 pending=90 lag=242379（可能属于其他券）', 'redis 253186 + active 4352 != total 500000', 'redis users 246814 != active orders 4352']
+starting consumer at 2026-09-28T07:49:47Z
+final reconcile 2026-09-28T07:49:47Z
+final exit 0 at 2026-09-28T07:50:45Z
+final consistent=True balanced=True oversell=0 active=246814 redis=253186 users=246814 db_pending=246814 mq_pending=0 lag=0 total=500000
+notes None

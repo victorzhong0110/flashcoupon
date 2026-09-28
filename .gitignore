@@ -1,0 +1,29 @@
+/bin/
+*.exe
+*.test
+.DS_Store
+/tmp/
+
+# 本地密钥，不要进仓库
+.env
+.env.*
+!.env.example
+*.pem
+id_rsa
+id_ed25519
+
+# Redis 持久化。AOF / RDB 会到几百 MB，不进提交。
+*.rdb
+*.aof
+appendonlydir/
+
+# 数据库数据文件。schema 在 internal/order/sql，不受这里影响。
+*.ibd
+ibdata*
+ib_logfile*
+mysql-data/
+data/
+
+# k6 --out json 的逐点原始流。docs/bench-results 里是几 KB 的汇总，保留。
+*.k6.json
+k6-out/

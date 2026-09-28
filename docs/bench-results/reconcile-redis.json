@@ -1,0 +1,24 @@
+{
+  "coupon_id": 15,
+  "snapshot": {
+    "Strategy": "redis",
+    "Total": 5000000,
+    "RedisRemaining": 4739198,
+    "NegativeShards": 0,
+    "DBPending": 260802,
+    "DBConfirmed": 0,
+    "DBCancelled": 0,
+    "DBRemaining": 5000000,
+    "DuplicateUsers": 0,
+    "RedisUsers": 260802,
+    "MQPending": 0,
+    "MQLag": 0,
+    "DLQ": 0,
+    "UnreturnedCancels": 0
+  },
+  "active": 260802,
+  "quiescent": true,
+  "balanced": true,
+  "oversell": 0,
+  "consistent": true
+}

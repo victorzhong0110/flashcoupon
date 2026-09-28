@@ -1,0 +1,17 @@
+{
+  "coupon_id": 144,
+  "user_id": 998000000001,
+  "order_id": 362878847907012608,
+  "status": "CANCELLED",
+  "stock_returned": 1,
+  "expire_at_unix": 1790584261.303,
+  "updated_at_unix": 1790584261.369,
+  "redis_remaining": 20,
+  "redis_shards_present": 8,
+  "redis_users": 0,
+  "total_stock": 20,
+  "cancel_minus_expire_sec": 0.06599998474121094,
+  "observed_stock_back_minus_expire_sec": 0.08498954772949219,
+  "row_seen_minus_expire_sec": -1.8039100170135498,
+  "ok": true
+}

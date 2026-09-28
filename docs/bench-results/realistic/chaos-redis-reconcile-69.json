@@ -1,0 +1,24 @@
+{
+  "coupon_id": 69,
+  "snapshot": {
+    "Strategy": "sharded",
+    "Total": 80000,
+    "RedisRemaining": 79874,
+    "NegativeShards": 0,
+    "DBPending": 126,
+    "DBConfirmed": 0,
+    "DBCancelled": 0,
+    "DBRemaining": 80000,
+    "DuplicateUsers": 0,
+    "RedisUsers": 126,
+    "MQPending": 0,
+    "MQLag": 0,
+    "DLQ": 0,
+    "UnreturnedCancels": 0
+  },
+  "active": 126,
+  "quiescent": true,
+  "balanced": true,
+  "oversell": 0,
+  "consistent": true
+}

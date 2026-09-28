@@ -1,0 +1,6 @@
+===== fault: restart redis =====
+coupon 22
+restarting redis at 07:44:43
+redis ping ok at 07:45:10
+final reconcile 07:45:10
+redis restart recovered consistent

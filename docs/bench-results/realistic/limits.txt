@@ -1,0 +1,8 @@
+inspect 2026-09-28T08:14:37Z
+/workspace-api1-1 NanoCpus=350000000 Memory=268435456
+/workspace-api2-1 NanoCpus=350000000 Memory=268435456
+/workspace-consumer-1 NanoCpus=500000000 Memory=268435456
+/workspace-mysql-1 NanoCpus=700000000 Memory=1073741824
+/workspace-nginx-1 NanoCpus=200000000 Memory=67108864
+/workspace-prometheus-1 NanoCpus=0 Memory=0
+/workspace-redis-1 NanoCpus=1000000000 Memory=2684354560

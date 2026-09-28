@@ -1,0 +1,6 @@
+followup collected_at 2026-09-28T08:30:18Z
+Linux 6.12.94+ #1 SMP PREEMPT_DYNAMIC Thu Sep 24 16:04:37 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+nproc: 4
+go version go1.22.2 linux/amd64
+k6 v0.57.0 (commit/50afd82c18, go1.23.6, linux/amd64)
+docker 29.1.3

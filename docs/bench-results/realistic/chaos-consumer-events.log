@@ -1,0 +1,7 @@
+stop consumer at 2026-09-28T08:11:09Z
+mid reconcile 71 2026-09-28T08:11:11Z
+mid consistent=False oversell=0 active=1006 redis=198676 users=1324 total=200000 lag=804
+held reconcile 2026-09-28T08:11:20Z
+start consumer at 2026-09-28T08:11:20Z
+final wait 2026-09-28T08:11:20Z
+consumer recovered consistent at 2026-09-28T08:11:28Z

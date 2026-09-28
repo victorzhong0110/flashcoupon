@@ -1,0 +1,29 @@
+{
+  "coupon_id": 24,
+  "snapshot": {
+    "Strategy": "sharded",
+    "Total": 500000,
+    "RedisRemaining": 253186,
+    "NegativeShards": 0,
+    "DBPending": 4352,
+    "DBConfirmed": 0,
+    "DBCancelled": 0,
+    "DBRemaining": 500000,
+    "DuplicateUsers": 0,
+    "RedisUsers": 246814,
+    "MQPending": 90,
+    "MQLag": 242379,
+    "DLQ": 0,
+    "UnreturnedCancels": 0
+  },
+  "active": 4352,
+  "quiescent": true,
+  "balanced": false,
+  "oversell": 0,
+  "consistent": false,
+  "notes": [
+    "共享流还有 pending=90 lag=242379（可能属于其他券）",
+    "redis 253186 + active 4352 != total 500000",
+    "redis users 246814 != active orders 4352"
+  ]
+}

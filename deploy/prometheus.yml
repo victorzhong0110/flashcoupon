@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 2s
+  evaluation_interval: 2s
+
+scrape_configs:
+  - job_name: teabreak-api
+    static_configs:
+      - targets: ["api1:8080", "api2:8080"]
+  - job_name: teabreak-consumer
+    static_configs:
+      - targets: ["consumer:8081"]
